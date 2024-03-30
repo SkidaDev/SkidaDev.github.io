@@ -1,0 +1,62 @@
+.group {
+  height: 68px;
+  width: 164px;
+}
+
+.group .overlap-group {
+  position: relative;
+}
+
+.group .rectangle {
+  background-color: var(--yellow);
+  border-radius: 6px;
+  height: 61px;
+  left: 6px;
+  position: absolute;
+  top: 7px;
+  width: 158px;
+}
+
+.group .div {
+  border: 1px solid;
+  border-color: var(--dark-brown);
+  border-radius: 6px;
+  height: 61px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 158px;
+}
+
+.group .resume {
+  color: var(--dark-brown);
+  font-family: "Poppins", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+}
+
+.group .default {
+  height: 68px;
+}
+
+.group .variant-2 {
+  background-color: var(--yellow);
+  border-radius: 6px;
+  height: 61px;
+  left: 6px;
+  top: 7px;
+  width: 158px;
+}
+
+.group .overlap-group.default .resume {
+  left: 38px;
+  top: 15px;
+}
+
+.group .overlap-group.variant-2 .resume {
+  left: 39px;
+  top: 14px;
+}
